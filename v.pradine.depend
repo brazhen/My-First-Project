@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1727287073 source:c:\users\nagli\onedrive\desktop\kodai\v.pradine\main.cpp
+	"Stud.h"
+	<iomanip>
+
+1727287657 c:\users\nagli\onedrive\desktop\kodai\v.pradine\stud.h
+	"Mylib.h"
+
+1727281984 c:\users\nagli\onedrive\desktop\kodai\v.pradine\mylib.h
+	<iostream>
+	<string>
+	<vector>
+	<cstdlib>
+	<ctime>
+
+1727287222 source:c:\users\nagli\onedrive\desktop\kodai\v.pradine\stud.cpp
+	"Stud.h"
+	<algorithm>
+	<random>
+	<cstdlib>
+	<ctime>
+
