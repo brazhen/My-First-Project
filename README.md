@@ -8,6 +8,39 @@ Zymejimai:
 G-FAILO GENERVIMAS, N-FAILO NUSKAITYMAS, R-STUDENTU RUSIAVIMAS, I-REZULTATU ISSAUGOJIMAS FAILUOSE
 ![image](https://github.com/user-attachments/assets/2179955f-79f0-498b-8ae4-3d6debbec6d4)
 
+
+
+ATSISIUNTIMO INSTRUKCIJA:
+Atsisiųskite V1.0 leidimą:
+
+spustelėkite „V1.0“ leidimą ir pasirinkite Source code (zip), kad atsisiųstumėte programos šaltinio kodą. Išarchyvuokite atsisiųstą failą į pasirinktą katalogą.
+
+
+Atidarykite terminalą arba komandų eilutę:
+
+eikite į katalogą, kur išarchyvavote šaltinio kodą. Pavyzdžiui, jei jis buvo išarchyvuotas į katalogą ~/Atsisiuntimai/V1.0, įveskite: 
+
+cd ~/Atsisiuntimai/V1.0
+
+
+Kompiliuokite programą naudodami Makefile:
+
+šis projektas turi Makefile, kuris palengvina programos kompiliavimą. Norėdami sukurti programą, komandineje eiluteje įveskite:
+
+ make
+
+Po sėkmingo kompiliavimo make sukuria vykdomąjį failą „V1.0”.
+
+
+Paleiskite programą:
+
+norėdami paleisti programą, įveskite:
+
+./V1.0
+
+
+
+
 NAUDOJIMO IMSTRUKCIJA:
 
 Paleiskite programą – programa inicijuojama funkcijoje main, kuri kviečia naudotoją pasirinkti veiksmus.
@@ -32,3 +65,5 @@ Pasirinkite studentų rūšiavimo strategiją. Galimos strategijos yra trys:
 Rezultatų spausdinimas. Programa išveda rūšiuotus studentus į atskirus failus, pavadintus tinginukai.txt ir moksliukai.txt kurie bus laikomi tame paciame aplanke, kaip ir jusu programa.
 
 Galiausiai, atlikus visus veiksmus, naudotojui pateikiamas klausimas, ar programa turėtų būti paleista iš naujo.
+
+
