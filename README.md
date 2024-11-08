@@ -28,5 +28,7 @@ Pasirinkite studentų rūšiavimo strategiją. Galimos strategijos yra trys:
 1.	Strategija 1 – kuria du atskirus sąrašus, kuriuose studentai suskirstyti pagal vidutinį įvertinimą.
 2.	Strategija 2 – pašalina „tinginukus“ (studentus su vidutiniu įvertinimu mažesniu nei 5) ir palieka tik „moksliukus“.
 3.	Strategija 3 – naudoja partition funkciją, kuri greitai suskirsto studentus į atskiras grupes.
+
 Rezultatų spausdinimas. Programa išveda rūšiuotus studentus į atskirus failus, pavadintus tinginukai.txt ir moksliukai.txt kurie bus laikomi tame paciame aplanke, kaip ir jusu programa.
+
 Galiausiai, atlikus visus veiksmus, naudotojui pateikiamas klausimas, ar programa turėtų būti paleista iš naujo.
