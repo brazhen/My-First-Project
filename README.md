@@ -17,32 +17,36 @@ G-FAILO GENERVIMAS, N-FAILO NUSKAITYMAS, R-STUDENTU RUSIAVIMAS, I-REZULTATU ISSA
 
 
 ATSISIUNTIMO INSTRUKCIJA:
+
 Atsisiųskite V1.0 leidimą:
 
 spustelėkite „V1.0“ leidimą ir pasirinkite Source code (zip), kad atsisiųstumėte programos šaltinio kodą. Išarchyvuokite atsisiųstą failą į pasirinktą katalogą.
 
+Atsisiunte ispleskite zip faila ir paspaude desniji klavisa ant programos aplanko pasirinkite "atidaryti naudojant terminala"
 
-Atidarykite terminalą arba komandų eilutę:
+Atsidarius terminalui, komandineje eiluteje irasykite:
 
-eikite į katalogą, kur išarchyvavote šaltinio kodą. Pavyzdžiui, jei jis buvo išarchyvuotas į katalogą ~/Atsisiuntimai/V1.0, įveskite: 
+mkdir build
 
-cd ~/Atsisiuntimai/V1.0
+Paspaude enter, irasykite:
 
+cd build
 
-Kompiliuokite programą naudodami Makefile:
+ir galiausiai dar karta paspaude enter irasykite:
 
-šis projektas turi Makefile, kuris palengvina programos kompiliavimą. Norėdami sukurti programą, komandineje eiluteje įveskite:
-
- make
-
-Po sėkmingo kompiliavimo make sukuria vykdomąjį failą „V1.0”.
+cmake -G "CodeBlocks - MinGW Makefiles" ..
 
 
-Paleiskite programą:
+Po sėkmingo kompiliavimo make sukuria vykdomąjį failą „v1.0”.
 
-norėdami paleisti programą, įveskite:
+Ji rasite atsidare programos aplanka ir paspaude ant build aplanko.
 
-./V1.0
+
+Ijungus mineta v1.0 faila, salia "build" ir "run" mygtuku, vietoje "all" pasirinkite opcija "v1.0"
+
+Tada paspauskite build
+
+Na ir kai sis veiksmas atliekamas, galite spausti "run" mygtuka ir pradeti naudotis programa.
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
